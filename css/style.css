@@ -226,6 +226,7 @@ header {
   -moz-box-shadow: 0px 0px 19px -4px rgba(0, 0, 0, 0.75);
   border-radius: 0.5rem;
   margin-top: 2rem;
+      font-weight: 700;
   width: 75%;
 }
 .hero--2 .hero--2__callout > img {
@@ -413,14 +414,22 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+  
+  h2,
+  h3{
+    font-size: 3.5rem;
+  }
   .footer .footer--contents {
     flex-direction: column;
   }
   .footer .footer--links li,
-  .footer .footer--contents p,
+  p,strong,
   .attribution {
     font-size: 2rem;
   }
+small{
+  font-size: 1.7rem;
+}
   .footer .footer--icons {
     text-align: center;
   }
